@@ -10,3 +10,5 @@ Follow these steps to get started with the project:
 
 Use the following git command to clone the repository to your local machine:
 
+git clone https://github.com/Elmehdidebug/ALPR_YOLOv8.git
+
