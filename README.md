@@ -19,6 +19,10 @@ Download a sample video from Google Drive using the following link:
 
 [Download Sample Video](https://drive.google.com/uc?id=1P-oVR0J35Dw40lzw47sE19oADSW-tyb1&confirm=t)
 
+or use 
+
+`gdown "https://drive.google.com/uc?id=1P-oVR0J35Dw40lzw47sE19oADSW-tyb1&confirm=t"`
+
 ### License Plate Detection
 
 To perform license plate detection, execute the following command:
