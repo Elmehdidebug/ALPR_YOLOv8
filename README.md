@@ -2,6 +2,10 @@
 
 This project aims to provide an Automatic License Plate Recognition (ALPR) system using the YOLOv8 model. With this system, you can detect license plates in images and videos.
 
+## Understanding the Code
+
+To understand and customize the code for the ALPR YOLOv8 model, please refer to the `ALPR_yolov8.ipynb` notebook provided in this repository. The notebook includes a step-by-step guide and explanatory comments, which will help you fine-tune the model using your own dataset and parameters. Feel free to adapt the code to meet your specific requirements and experiment with different configurations to achieve optimal results for your application.
+
 ## Getting Started
 
 Follow these steps to get started with the project:
