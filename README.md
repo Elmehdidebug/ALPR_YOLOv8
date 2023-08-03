@@ -45,5 +45,8 @@ If you wish to fine-tune the ALPR YOLOv8 model on your own dataset, follow these
    ```python
    # Example code for downloading dataset
    api_key = "YOUR_API_KEY"
-   !curl -L "https://app.roboflow.com/ds/{dataset_id}/download?apikey=$api_key" > roboflow.zip; unzip roboflow.zip; rm roboflow.zip
+   from roboflow import Roboflow
+   rf = Roboflow(api_key=api_key)
+   project = rf.workspace("samrat-sahoo").project("license-plates-f8vsn")
+   dataset = project.version(5).download("yolov8")
 
