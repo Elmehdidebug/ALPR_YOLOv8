@@ -34,3 +34,16 @@ After running the command, you will see the path to the results in the last line
 `Results saved to runs/detect/predict`
 
 
+## Fine-tuning the Model
+
+If you wish to fine-tune the ALPR YOLOv8 model on your own dataset, follow these steps:
+
+1. Access the dataset's Universe home page: [License Plates Dataset](https://universe.roboflow.com/samrat-sahoo/license-plates-f8vsn/dataset/5).
+
+2. On the dataset page, click the "Download this Dataset" button and choose "YOLO v8 text format." You will be prompted with a code snippet similar to the one below, which includes your API key:
+
+   ```python
+   # Example code for downloading dataset
+   api_key = "YOUR_API_KEY"
+   !curl -L "https://app.roboflow.com/ds/{dataset_id}/download?apikey=$api_key" > roboflow.zip; unzip roboflow.zip; rm roboflow.zip
+
