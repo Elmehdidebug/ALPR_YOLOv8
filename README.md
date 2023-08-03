@@ -50,3 +50,7 @@ If you wish to fine-tune the ALPR YOLOv8 model on your own dataset, follow these
    project = rf.workspace("samrat-sahoo").project("license-plates-f8vsn")
    dataset = project.version(5).download("yolov8")
 
+3. Copy the code snippet and paste it into the ALPR_yolov8.ipynb notebook. Execute the code to download the dataset.
+
+4. With the dataset at your disposal, you can fine-tune the YOLOv8 model using your own parameters and training settings. The notebook provides a step-by-step guide and explanatory comments to help you through the process.
+
