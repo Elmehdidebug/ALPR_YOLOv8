@@ -1,0 +1,13 @@
+names:
+- license-plate
+- vehicle
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: license-plates-f8vsn
+  url: https://universe.roboflow.com/samrat-sahoo/license-plates-f8vsn/dataset/5
+  version: 5
+  workspace: samrat-sahoo
+test: ../test/images
+train: License-Plates-5/train/images
+val: License-Plates-5/valid/images
