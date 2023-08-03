@@ -10,7 +10,7 @@ Follow these steps to get started with the project:
 
 Use the following git command to clone the repository to your local machine:
 
-git clone https://github.com/Elmehdidebug/ALPR_YOLOv8.git
+`git clone https://github.com/Elmehdidebug/ALPR_YOLOv8.git`
 
 
 ### Download Sample Video
@@ -23,10 +23,10 @@ Download a sample video from Google Drive using the following link:
 
 To perform license plate detection, execute the following command:
 
-yolo task=detect mode=predict model={HOME}/runs/detect/train/weights/best.pt conf=0.25 source="demo.mp4" save=True
+`yolo task=detect mode=predict model={HOME}/runs/detect/train/weights/best.pt conf=0.25 source="demo.mp4" save=True`
 
 After running the command, you will see the path to the results in the last line of the execution, for example:
 
-Results saved to runs/detect/predict
+`Results saved to runs/detect/predict`
 
 
